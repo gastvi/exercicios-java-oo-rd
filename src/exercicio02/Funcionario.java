@@ -2,6 +2,9 @@ package exercicio02;
 
 public abstract class Funcionario {
 
-    // TODO: implemente o código desta classe
+String nome;
+float salario;
+
+  public abstract void Salarioanual();
 
 }

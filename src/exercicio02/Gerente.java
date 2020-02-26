@@ -2,6 +2,14 @@ package exercicio02;
 
 public class Gerente {
 
-    // TODO: implemente o código desta classe
+    String Gerente;
+    double salario;
+
+
+
+    public void salarioAnualGerente(float bonus){
+
+        salario = salario * 13 * bonus * salario;
+    }
 
 }
